@@ -1,0 +1,21 @@
+ion-header {
+  ion-icon {
+    font-size: 30px;
+    position: relative;
+    margin-inline-end: 20px;
+  }
+  #notifications-badge-msg {
+    position: absolute;
+    top: 5px;
+    right: 70px;
+    color: #fff;
+    z-index: 111;
+  }
+  #notifications-badge {
+    position: absolute;
+    top: 5px;
+    right: 40px;
+    color: #fff;
+    z-index: 111;
+  }
+}

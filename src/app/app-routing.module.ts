@@ -11,6 +11,18 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'filter',
+    loadChildren: () => import('./filter/filter.module').then( m => m.FilterPageModule)
+  },
+  {
+    path: 'login',
+    loadChildren: () => import('./login/login.module').then( m => m.LoginPageModule)
+  },
+  {
+    path: 'order',
+    loadChildren: () => import('./order/order.module').then( m => m.OrderPageModule)
+  },
 ];
 
 @NgModule({
